@@ -1,0 +1,20 @@
+TODO
+
+- fix bug where test repo state is not saved in stepper - DONE
+- add function for stop
+- improve past runs appearance - DONE
+- improve run viewer appearance - DONE
+- report link - DONE
+- past run load - DONE
+- - translate run to repo - DONE
+- - option to name DONE
+- add folder/file view to repo - DONE
+- add show checked feature- QnD done
+- fix height and scroll issues - DONE?
+- improve console appearance - DONE
+
+
+- change 'past runs' to 'recent runs' - DONE
+- change icon colors for past(recent) runs - DONE
+- add label for run status - DONE
+- BUG - when there are no runs, empty display should be 'no recent runs' and not 'loading'

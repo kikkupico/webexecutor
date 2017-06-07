@@ -1,0 +1,145 @@
+body, html {
+  font-family: 'Roboto', sans-serif;  
+}
+
+.niceFont{
+ font-family: 'Roboto', sans-serif;
+}
+
+.Resizer {
+        background: #000;
+        opacity: .2;
+        z-index: 1;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        -moz-background-clip: padding;
+        -webkit-background-clip: padding;
+        background-clip: padding-box;
+    }
+
+.Resizer:hover {
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+.Resizer.horizontal {
+  height: 11px;
+  margin: -5px 0;
+  border-top: 5px solid rgba(255, 255, 255, 0);
+  border-bottom: 5px solid rgba(255, 255, 255, 0);
+  cursor: row-resize;
+  width: 100%;
+}
+
+.Resizer.horizontal:hover {
+  border-top: 5px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+}
+
+.Resizer.vertical {
+  width: 11px;
+  margin: 0 -5px;
+  border-left: 5px solid rgba(255, 255, 255, 0);
+  border-right: 5px solid rgba(255, 255, 255, 0);
+  cursor: col-resize;
+}
+
+.Resizer.vertical:hover {
+  border-left: 5px solid rgba(0, 0, 0, 0.5);
+  border-right: 5px solid rgba(0, 0, 0, 0.5);
+}
+
+Resizer.disabled {
+cursor: not-allowed;
+}
+
+Resizer.disabled:hover {
+border-color: transparent;
+}
+    
+.console {      
+  width:100%;
+  font-family: 'Inconsolata', monospace !important;
+  /*background-color: #000 !important;
+  color: #fff !important;  */
+}
+
+.test-repo {
+  overflow:"auto";
+  width:"100%";
+  max-width:"100%";
+  display:"inline-block";
+  padding: 1em;  
+}
+
+.like-drawer {
+  overflow:"auto";
+  background-color: #fff;
+  min-height: 100%;
+}
+
+.like-content {
+  padding: 3em;  
+}
+
+.blink_me {
+  animation: blinker 2s linear infinite !important;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
+.customTab {  
+  z-index: 0 !important;
+}
+
+.customTabs {  
+  z-index: 0 !important;  
+}
+
+.selectedItemInList {
+  background-color: #00BCD4 !important;
+  color: #fff !important;
+  border-left: thick solid #00BCD4 !important;
+}
+
+
+.logo {
+  text-align: center;
+  margin-left: -1.5em;
+  padding-bottom: 0.6em;
+  padding-top: 0;
+  color: #999;
+  font-family: 'Inconsolata', monospace;
+}
+
+.logo-icon {
+  color: #999;
+  margin-bottom: -0.2em;
+}
+
+.sub-appbar {
+  padding-left: 4em !important;  
+}
+
+.sub-appbar > h1 {
+  font-size: 18px !important;
+}
+
+.execution-queue {
+  padding-top: 1em;
+  max-width: 66%;
+}
+
+.execution-queue-chip {
+  display: inline-block !important;
+  margin: 0.2em !important;
+}
+
+.loading-image
+{
+  position: relative;
+  bottom: -5px;
+}
